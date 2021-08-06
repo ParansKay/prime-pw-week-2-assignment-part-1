@@ -75,21 +75,9 @@ else if (pets > allowedPets) {
 // }
 // else {
 //     mostPets = pets;
-//     console.log(mostPets);
+//     console.log("You and your friend have" + " " + pets + " " + "pets! What a coincidence!");
 // };
 
-//Here is my original answer to Q 16: 
-// let mostPets;
-// switch (mostPets) {
-//     case 1: (pets > friendsPets);
-//     mostPets = pets;
-//     console.log(mostPets);
-//     break;
-//     case 2: (pets < friendsPets);
-//     mostPets = friendsPets;
-//     console.log(mostPets);
-//     break;
-// };  
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 let mostPets;
