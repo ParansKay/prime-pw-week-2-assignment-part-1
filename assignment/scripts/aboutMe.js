@@ -103,7 +103,7 @@ switch (mostPets) {
         console.log(mostPets);
         break;
     default: 
-    console.log("You have the same amount of pets! Small world!");
+    console.log("You and your friend have" + " " + pets + " " + "pets! What a coincidence!");
 };
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
