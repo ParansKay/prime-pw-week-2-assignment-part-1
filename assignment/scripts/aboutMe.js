@@ -63,19 +63,32 @@ else if (pets > allowedPets) {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+// HERE ARE MY ANSWERS FOR QUESION 16:
+// let mostPets;
+// if (pets > friendsPets) {
+//     mostPets = pets;
+//     console.log(mostPets);
+// }
+// else if (friendsPets > pets) {
+//     mostPets = friendsPets;
+//     console.log(mostPets);
+// }
+// else {
+//     mostPets = pets;
+//     console.log(mostPets);
+// };
+
 let mostPets;
-if (pets > friendsPets) {
+switch (mostPets) {
+    case 1: (pets > friendsPets);
     mostPets = pets;
     console.log(mostPets);
-}
-else if (friendsPets > pets) {
+    break;
+    case 2: (pets < friendsPets);
     mostPets = friendsPets;
     console.log(mostPets);
-}
-else {
-    mostPets = pets;
-    console.log(mostPets);
-};
+    break;
+};  
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
