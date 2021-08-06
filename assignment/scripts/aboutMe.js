@@ -65,13 +65,17 @@ else if (pets > allowedPets) {
 
 let mostPets;
 if (pets > friendsPets) {
-    console.log(pets);
     mostPets = pets;
+    console.log(mostPets);
 }
 else if (friendsPets > pets) {
-    console.log(friendsPets);
     mostPets = friendsPets;
-};
+    console.log(mostPets);
+}
+else {
+    mostPets = pets;
+    console.log(mostPets);
+}
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
