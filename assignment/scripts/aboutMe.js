@@ -102,8 +102,9 @@ switch (mostPets) {
         mostPets = pets;
         console.log(mostPets);
         break;
+    default: 
+    console.log("You have the same amount of pets! Small world!");
 };
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
 
