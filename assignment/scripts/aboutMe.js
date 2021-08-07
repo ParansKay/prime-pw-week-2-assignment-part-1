@@ -22,7 +22,7 @@ let food = "Adasi Polo";
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 2;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 2;
+let friendsPets = 4;
 // 11 - Add two pets to your `pets` variable
 pets + 2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
@@ -82,17 +82,21 @@ else if (pets > allowedPets) {
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 let mostPets;
 switch (mostPets) {
-    case 1: ( pets > friendsPets )
+    case (pets > friendsPets):
         mostPets = pets;
         console.log(mostPets);
         break;
-    case 2: ( pets < friendsPets )
-        mostPets = pets;
+    case (pets < friendsPets):
+        mostPets = friendsPets;
         console.log(mostPets);
         break;
     default: 
-    console.log("You and your friend both have" + " " + pets + " " + "pets! What a coincidence!");
+        console.log("You and your friend both have" + " " + pets + " " + "pets! What a coincidence!");
+        break;
 };
+
+// It took me forever to figure out how to make the code run with all the variables changed.
+// Unsure if my syntax if correct or not! 
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
