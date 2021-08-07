@@ -20,7 +20,7 @@ let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = "Adasi Polo";
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 2;
+let pets = 290;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 4;
 // 11 - Add two pets to your `pets` variable
@@ -81,14 +81,14 @@ else if (pets > allowedPets) {
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 let mostPets;
-switch (mostPets) {
+switch (true) {
     case (pets > friendsPets):
         mostPets = pets;
-        console.log(mostPets);
+        console.log( firstname, "has the most pets with", mostPets, "pets." );
         break;
     case (pets < friendsPets):
         mostPets = friendsPets;
-        console.log(mostPets);
+        console.log(firstname + "'s friend has the most pets with", mostPets, "pets."); 
         break;
     default: 
         console.log("You and your friend both have" + " " + pets + " " + "pets! What a coincidence!");
